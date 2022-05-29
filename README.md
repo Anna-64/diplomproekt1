@@ -29,11 +29,6 @@
 
 
  ## Запуск тестового приложения
-в IDEA открываем в терминале (+) новую вкладку и вводим команду:
-- команда для запуска с подключением MySQL: java -Dspring.datasource.url=jdbc:mysql://localhost:3306/app -jar aqa-shop.jar
-- команда для запуска с подключением PostgreSQL: java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app -jar aqa-shop.jar
-   
-### Запустить авто-тесты
-- команда для запуска с подключением MySQL: ./gradlew clean test -Ddb.url=jdbc:mysql://localhost:3306/app allureServe
-- команда для запуска с подключением PostgreSQL: ./gradlew clean test -Ddb.url=jdbc:postgresql://localhost:5432/app allureServe
- Для завершения работы allureServe выполнить команду: Ctrl + С
+в IDEA открываем в терминале (+) новую вкладку и вводим команду ./gradlew test
+После прохождения тестов в терминале вводим команду ./gradlew allureServe
+Автоматически откроется браузер с генерированным отчетом.
