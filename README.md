@@ -15,7 +15,7 @@
 - Установить Docker Desktop;
 
  в Docker 
-1) клонировать репозиторий с Github git clone https://github.com/Anna-64/diplomproekt.git
+1) клонировать репозиторий с Github git clone https://github.com/Anna-64/diplomproekt1
 
    в IntelliJ IDEA
 2) Открыть проект в IntelliJ IDEA, отокрыть терминал (Fn + Alt + F12);
@@ -23,12 +23,13 @@
 4) запускаем банковский симулятор коммандой npm start;
 5) открываем в терминале (+) новую вкладку и вводим команду docker-compose up -d --force-recreate;
 6) открываем в терминале (+) новую вкладку и запускаем jar файл коммандой java -jar aqa-shop.jar.
-7) открываем страницу в Google Chrome http://localhost:8080/.
+7) открываем страницу в Google Chrome http://localhost:8080.
 8) после работы с Docker останавливаем контейнеры docker-compose down
 9) после работы с банковским симулятор в терминале нажимаем ctl + C
 
 
  ## Запуск тестового приложения
-в IDEA открываем в терминале (+) новую вкладку и вводим команду ./gradlew test
-После прохождения тестов в терминале вводим команду ./gradlew allureServe
+в IDEA 
+- открываем в терминале (+) новую вкладку и вводим команду ./gradlew test
+- После прохождения тестов в терминале вводим команду ./gradlew allureServe
 Автоматически откроется браузер с генерированным отчетом.
