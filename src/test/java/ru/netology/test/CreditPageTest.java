@@ -13,8 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static ru.netology.data.DataGenerator.*;
 
 @Feature("Тестируем покупку тура в кредит по данным банковской карты")
-public class
-CreditPageTest {
+public class CreditPageTest {
 
     @BeforeAll
     static void setUpAll() {
@@ -23,7 +22,8 @@ CreditPageTest {
 
     @BeforeEach
     public void setUp() {
-       open("http://localhost:8080");
+        // Configuration.headless = true;
+        open("http://localhost:8080");
     }
 
     @AfterAll
