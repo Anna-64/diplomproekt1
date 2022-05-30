@@ -23,8 +23,7 @@ CreditPageTest {
 
     @BeforeEach
     public void setUp() {
-       // Configuration.headless = true;
-        open("http://localhost:8080");
+       open("http://localhost:8080");
     }
 
     @AfterAll
