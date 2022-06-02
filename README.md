@@ -18,7 +18,7 @@
 1) клонировать репозиторий с Github git clone https://github.com/Anna-64/diplomproekt1
 
    в IntelliJ IDEA
-2) Открыть проект в IntelliJ IDEA, отокрыть терминал (Fn + Alt + F12);
+2) Открыть проект в IntelliJ IDEA, открыть терминал (Fn + Alt + F12);
 3) переходим в папку gate-simulator (cd gate-simulator);
 4) запускаем банковский симулятор командой npm start;
 5) открываем в терминале (+) новую вкладку и вводим команду docker-compose up -d --force-recreate;
@@ -30,12 +30,17 @@
 
  ## Запуск тестового приложения
 в IDEA 
+### Для формирования отчета MySQL
 - открываем в терминале (+) новую вкладку и вводим команду ./gradlew clean test
 - После прохождения тестов в терминале вводим команду ./gradlew allureServe
-Автоматически откроется браузер с генерированным отчетом. 
-После работы с Allure нажимаем ctl + C
-### Для формирования отчета postgresql, 
+Автоматически откроется браузер с генерированным отчетом Allure Report. 
+После работы с отчетом Allure нажимаем ctl + C
+- 
+### Для формирования отчета postgresql
 - в терминале с командой java -jar aqa-shop.jar нажимаем ctl + C
 - открываем новую вкладку в терминале java -jar aqa-shop.jar -P:jdbc.url=jdbc:postgresql://localhost:5432/app -P:jdbc.user=app -P:jdbc.password=pass
-- Далее следуем пунктам запуск тестового приложения
+- открываем в терминале (+) новую вкладку и вводим команду ./gradlew clean test
+- После прохождения тестов в терминале вводим команду ./gradlew allureServe
+  Автоматически откроется браузер с генерированным отчетом Allure Report.
+  После работы с отчетом Allure нажимаем ctl + C
 
