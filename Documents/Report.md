@@ -1,4 +1,4 @@
-##Отчёт о проведённом тестировании
+Отчёт о проведённом тестировании
 
 1. Краткое описание
    В ходе выполнения дипломной работы было проведено тестирование веб-сервиса "Путешествие дня", 
@@ -20,6 +20,8 @@
 4. Общие рекомендации
    Устранить дефекты обнаруженные на этапе тестирования - https://github.com/Anna-64/diplomproekt1/issues
 
-![](../../../OneDrive/Рабочий стол/отчеты/Allure Report —mysql overview.png)
+Documents/AllureReport/Allure Report —mysql overview.png
 
-![](../../../OneDrive/Рабочий стол/отчеты/gradle mysql.png)
+Documents/AllureReport/Allure Report — mysql покупка тура по дебетовой карте.png
+
+Documents/AllureReport/Allure Report — mysql покупка тура в кредит.png
