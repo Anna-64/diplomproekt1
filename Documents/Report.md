@@ -20,8 +20,4 @@
 4. Общие рекомендации
    Устранить дефекты обнаруженные на этапе тестирования - https://github.com/Anna-64/diplomproekt1/issues
 
-Documents/AllureReport/Allure Report —mysql overview.png
-
-Documents/AllureReport/Allure Report — mysql покупка тура по дебетовой карте.png
-
-Documents/AllureReport/Allure Report — mysql покупка тура в кредит.png
+https://github.com/Anna-64/diplomproekt1/blob/c861b6cb98a35645e5fca9048265c44e4aee48cb/Documents/AllureReport/Allure%20Report%20%E2%80%94mysql%20overview.png
