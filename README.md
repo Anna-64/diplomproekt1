@@ -7,6 +7,8 @@
 Для покупки тура есть два способа: с помощью карты и в кредит. 
 В приложении используются два отдельных сервиса оплаты: Payment Gate и Credit Gate.
 
+Ссылка на дипломный проект https://github.com/netology-code/qa-diploma
+
 ## Запуск приложения
 
 ## Подготовительный этап
@@ -38,7 +40,7 @@
 - 
 ### Для формирования отчета postgresql
 - открываем новую вкладку в терминале java -jar aqa-shop.jar -P:jdbc.url=jdbc:postgres://localhost:5432/app -P:jdbc.user=app -P:jdbc.password=pass
-- открываем в терминале (+) новую вкладку и вводим команду  ./gradlew clean test "-Ddb.url=jdbc:postgres://localhost:5432/app" "-Ddb.user=app" "-Ddb.password=pass"
+- открываем в терминале (+) новую вкладку и вводим команду  ./gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app" "-Ddb.user=app" "-Ddb.password=pass"
 - После прохождения тестов в терминале вводим команду ./gradlew allureServe
   Автоматически откроется браузер с генерированным отчетом Allure Report.
   После работы с отчетом Allure нажимаем ctl + C
