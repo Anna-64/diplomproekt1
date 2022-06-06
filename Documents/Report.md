@@ -20,6 +20,3 @@
 4. Общие рекомендации
    Устранить дефекты обнаруженные на этапе тестирования - https://github.com/Anna-64/diplomproekt1/issues
 
-![](../../../OneDrive/Рабочий стол/отчеты/Allure Report —mysql overview.png)
-
-![](../../../OneDrive/Рабочий стол/отчеты/gradle mysql.png)
