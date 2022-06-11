@@ -27,7 +27,7 @@
 6) открываем в терминале (+) новую вкладку и запускаем jar файл командой java -jar aqa-shop.jar.
 7) открываем страницу в Google Chrome http://localhost:8080.
 8) после работы с Docker останавливаем контейнеры docker-compose down
-9) после работы с банковским симулятор в терминале нажимаем ctl + C
+9) после работы с банковским симулятор в терминале нажимаем Ctl + C
 
 
  ## Запуск тестового приложения
@@ -39,9 +39,10 @@
 После работы с отчетом Allure нажимаем ctl + C
 - 
 ### Для формирования отчета postgresql
-- открываем новую вкладку в терминале java -jar aqa-shop.jar -P:jdbc.url=jdbc:postgres://localhost:5432/app -P:jdbc.user=app -P:jdbc.password=pass
+- В файле application.properties  в строке spring.datasource.url прописываем jdbc:postgresql://localhost:5432/app
+- открываем новую вкладку в терминале java -jar aqa-shop.jar
 - открываем в терминале (+) новую вкладку и вводим команду  ./gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app" "-Ddb.user=app" "-Ddb.password=pass"
 - После прохождения тестов в терминале вводим команду ./gradlew allureServe
   Автоматически откроется браузер с генерированным отчетом Allure Report.
-  После работы с отчетом Allure нажимаем ctl + C
+  После работы с отчетом Allure нажимаем Ctl + C
 
