@@ -21,6 +21,14 @@
 
 Устранить дефекты обнаруженные на этапе тестирования - https://github.com/Anna-64/diplomproekt1/issues
 
+Allure Report MySql overview
 ![img.png](img.png)
 
+Gradle отчет MySql
 ![img_1.png](img_1.png)
+
+Allure Report Postgresql overview
+![](AllureReport/Allure Report — Postgresql overview.png)
+
+Gradle отчет Postgresql
+![](Gradle/Gradle отчет Postgresql.png)
