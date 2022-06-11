@@ -28,7 +28,7 @@ Gradle отчет MySql
 ![img_1.png](img_1.png)
 
 Allure Report Postgresql overview
-![](AllureReport/Allure Report — Postgresql overview.png)
+![img_2.png](img_2.png)
 
 Gradle отчет Postgresql
-![](Gradle/Gradle отчет Postgresql.png)
+![img_3.png](img_3.png)
